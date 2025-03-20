@@ -2,6 +2,7 @@
   color: red;
   font-size: 12px;
 }
+
 button{
     color: green;
 }
@@ -98,7 +99,7 @@ font-size: 40px;
 .block1,.block2,.block3,.block4,.block5,.block6{
     border: 2px solid greenyellow;
     border-radius: 6px;
-    width: 300px;
+    width: 400px;
     height: 750px;
    padding-left: 40px;
    padding-right: 40px;
@@ -159,9 +160,34 @@ button{
 
 
 /* media */
-
+@media (max-width:1340px) {
+    .quotes{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mainpic{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box4{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 @media (max-width: 1186px) {
-   
+
     .name{
         font-size: 5px;
     }
@@ -309,6 +335,9 @@ height: 300px;
 .intro{
     display: flex;
     flex-direction: column;
+}
+.aboutus,.products,.contact{
+    width: 668px;
 }
 .button1, .button2 {
     font-size: 12px;
